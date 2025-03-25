@@ -8,7 +8,7 @@ int main(){
     float area1, area2;
     float pib1, pib2;
     float  DensidadePopul1,  DensidadePopul2;
-    float perCapita1, perCapita2;
+    double perCapita1, perCapita2;
 
 
     printf("*CARTA 1*\n");
@@ -42,7 +42,7 @@ int main(){
     printf("Quantidade da população: %d - Área:%.2f\n", populacao1, area1);
     printf("Curiosidades --> Pontos Turisticos:%d - PIB: %.2f\n", pontos_turisticos1, pib1);
     printf("Densidade populacional: %.2f\n", DensidadePopul1);
-    printf("PIB per capita: %.5f\n", perCapita1);
+    printf("PIB per capita: %.10f\n", perCapita1);
 
     /*DADOS DA CARTA 2!!!!!*/
     printf("\n*CARTA 2*\n");
@@ -76,7 +76,7 @@ int main(){
     printf("Quantidade da população: %d - Área:%.2f\n", populacao2, area2);
     printf("Curiosidades --> Pontos Turisticos:%d - PIB: %.2f\n", pontos_turisticos2, pib2);
     printf("Densidade populacional: %.2f\n", DensidadePopul2);
-    printf("PIB per capita: %.2f\n", perCapita2);
+    printf("PIB per capita: %.10f\n", perCapita2);
 
 
 
