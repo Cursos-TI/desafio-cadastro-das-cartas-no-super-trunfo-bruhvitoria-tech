@@ -9,6 +9,8 @@ int main(){
     float pib1, pib2;
     float  DensidadePopul1,  DensidadePopul2;
     double perCapita1, perCapita2;
+    float superPoder1, superPoder2;
+    
 
 
     printf("*CARTA 1*\n");
