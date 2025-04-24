@@ -3,7 +3,7 @@ int main(){
     char estado1[2], estado2[2];
     char cidade1[50],cidade2[50] ;
     char codigo1[3], codigo2[3];
-    int populacao1, populacao2;
+    unsigned long int populacao1, populacao2;
     int pontos_turisticos1, pontos_turisticos2;
     float area1, area2;
     float pib1, pib2;
@@ -79,6 +79,11 @@ int main(){
     printf("Curiosidades --> Pontos Turisticos:%d - PIB: %.2f\n", pontos_turisticos2, pib2);
     printf("Densidade populacional: %.2f\n", DensidadePopul2);
     printf("PIB per capita: %.10f\n", perCapita2);
+
+    superPoder1 = populacao1 + area1 + pib1 + populacao1 + perCapita1 + DensidadePopul1;
+    superPoder2 = populacao2 + area2 + pib2 + populacao2 + perCapita2 + DensidadePopul2;
+
+    printf("Super poder ganhador:\n", superPoder1 );
 
 
 
